@@ -51,6 +51,9 @@ class App extends Component {
             <li className="right">
               <button id="openbtn" onClick={() => this.openNav()}>&#9776;</button>
             </li>
+            dsfdsfdsfsd
+            dsfdsfdsfsdf
+            dsfdsfdsfsdf
           </ul>
           <div id="Sidenav" className={this.state.isClose?'sidenav hidden':'sidenav'}>
             <a href="#" className="closebtn" onClick={() => this.closeNav()}>&times;</a>
