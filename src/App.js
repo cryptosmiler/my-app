@@ -29,6 +29,19 @@ class App extends Component {
         <nav>
           <ul className="topnav">
             <li className="left">
+
+
+
+
+
+
+
+
+
+
+
+
+              
               <img className='logo' src='./logo4.png'></img>
             </li>
             <li className='n'><a href="#contact">Contact</a></li> 
@@ -47,6 +60,11 @@ class App extends Component {
             <a href="#">Contact</a>
           </div>
         </nav>
+
+
+
+
+
         <div className='flex column minH-200 p-10'>
           <div className='w-100 minH-50 pt-50'>
             <img src={image_1} alt='' />  
