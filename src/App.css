@@ -105,8 +105,12 @@ ul.topnav li.right {display: none; float: right;}
   padding: 0;
   /* overflow: hidden; */
   background-color: black;
-  transition: 0.3s;
+  transition: 1s;
+}
 
+#Sidenav .closebtn {
+  text-align: right;
+  font-size: 30px;
 }
 
 #Sidenav a {
@@ -115,7 +119,7 @@ ul.topnav li.right {display: none; float: right;}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.3s;
+  transition: .3s;
 }
 .hover-drop{
   position: fixed;
@@ -124,11 +128,11 @@ ul.topnav li.right {display: none; float: right;}
   right: 0px;
   left: 0px;
   background: black;
-  opacity: .5;
+  opacity: .8;
   z-index: 1;
 }
 .sidenav {
-  height: 0; /* 100% Full-height */
+  height: 300px; /* 100% Full-height */
   width: 100%; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 2; /* Stay on top */
@@ -137,11 +141,11 @@ ul.topnav li.right {display: none; float: right;}
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: .5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .hidden{
-  display: none;
+  height: 0;
 }
 
 #Sidenav a:hover {
