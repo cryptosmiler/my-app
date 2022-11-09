@@ -52,6 +52,10 @@ const App = () => {
           {/* <img className='img4' src={image_4} alt='img4' /> */}
         </div>
       </div>
+      
+      <div>
+        <h1 className='text-3xl font-bold underline'>Hello World</h1>
+      </div>
 
       <div id='footer' style={{ display: 'block', background: 'black', color: 'white' }}>
         <div className='w-100' >
