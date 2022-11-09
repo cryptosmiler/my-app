@@ -9,9 +9,6 @@ import logo2 from './assets/images/logo2.jpg'
 import logo3 from './assets/images/logo3.jpg'
 import logo4 from './assets/images/logo4.png'
 
-
-// import $ from 'jquery';
-
 const App = () => {
   console.log('dddd')
   const[isClose,setClose] = useState(true);
