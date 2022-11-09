@@ -292,3 +292,10 @@ div img {
 .rounded      { border-radius: .25rem }
 .rounded-lg   { border-radius: .5rem }
 .rounded-full { border-radius: 9999px }
+
+.bg-sky-500 {
+  background-color: #0ea5e9;
+}
+.hover\:bg-sky-700:hover {
+  background-color: #0369a1;
+}
