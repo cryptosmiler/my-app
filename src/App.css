@@ -299,3 +299,13 @@ div img {
 .hover\:bg-sky-700:hover {
   background-color: #0369a1;
 }
+
+.carousel-item {
+  width: 50%;
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
